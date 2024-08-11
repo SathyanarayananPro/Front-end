@@ -1,0 +1,178 @@
+* {
+  font-family: sans-serif;
+  padding: 0;
+  margin: 0;
+  position: relative;
+}
+h1,
+h2,
+h3 {
+  color: rgb(27, 138, 182);
+}
+h1 {
+  font-size: 26px;
+  font-style: italic;
+  text-transform: uppercase;
+}
+h2 {
+  font-size: 40px;
+  margin-bottom: 30px;
+}
+h3 {
+  font-size: 30px;
+  margin-bottom: 20px;
+  margin-top: 40px;
+}
+h4 {
+  font-size: 20px;
+  text-transform: uppercase;
+  text-align: center;
+}
+p {
+  font-size: 22px;
+  line-height: 1.5;
+  margin-bottom: 15px;
+}
+ul,
+ol {
+  margin-left: 50px;
+  margin-bottom: 50px;
+}
+li {
+  font-size: 20px;
+  margin-bottom: 10px;
+  /* display: inline; */
+}
+li:last-child {
+  margin-bottom: 0;
+}
+#copyright {
+  font-size: 16px;
+}
+#author {
+  font-style: italic;
+  font-size: 16px;
+}
+
+.related-author {
+  font-size: 18px;
+  font-weight: bold;
+}
+/* ul {
+  list-style: none;
+} */
+#related {
+  list-style: none;
+}
+
+.main-header {
+  background-color: rgb(234, 234, 234);
+  padding: 20px 40px;
+  margin-bottom: 60px;
+  /* height: 80px; */
+}
+aside {
+  width: 500px;
+  background-color: rgb(231, 231, 231);
+  border-top: 5px solid rgb(27, 138, 182);
+  border-bottom: 5px Solid rgb(27, 138, 182);
+  padding: 50px 0px;
+}
+/* .first-li {
+  font-weight: bold;
+} */
+li:first-child {
+  font-weight: bold;
+}
+li:last-child {
+  font-style: italic;
+}
+/* li:nth-child(3) {
+  color: blueviolet;
+} */
+/* article p:last-child {
+  color: brown;
+} */
+
+a:any-link {
+  color: rgb(27, 138, 182);
+  text-decoration: none;
+}
+a:hover {
+  color: red;
+  font-weight: bold;
+  text-decoration: underline red;
+}
+a:active {
+  background-color: black;
+  font-style: italic;
+}
+/* .body {
+  width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0%;
+  margin-bottom: 0%;
+} */
+head {
+  border-top: 10px solid rgb(27, 138, 182);
+}
+.post-header {
+  margin-bottom: 10px;
+}
+article {
+  margin-bottom: 60px;
+}
+.post-image {
+  width: 100%;
+  height: auto;
+  margin: 10px;
+}
+.container {
+  width: 800px;
+  /* margin-left: auto;
+  margin-right: auto; */
+  margin: 0 auto;
+  position: relative;
+}
+/* LVHA */
+nav a:link {
+  margin-right: 30px;
+  margin-top: 10px;
+  display: inline-block;
+  /* background-color: orange;
+  margin: 20px;
+  padding: 20px;
+  display: block;*/
+}
+nav a:link:last-child {
+  margin-right: 0;
+}
+.like {
+  font-size: 30px;
+  position: absolute;
+  padding: 20px;
+  /* top: 50px;
+  left: 50px; */
+  bottom: 50px;
+  right: 50px;
+}
+h1::first-letter {
+  font-style: normal;
+  margin-right: 5px;
+}
+h3 + p::first-line {
+  /* color: red; */
+}
+h2::after {
+  content: "TOP";
+  background-color: yellow;
+  color: black;
+  font-size: 16px;
+  font-weight: bold;
+  display: inline-block;
+  padding: 5px 10px;
+  position: absolute;
+  top: -15px;
+  right: -10px;
+}
