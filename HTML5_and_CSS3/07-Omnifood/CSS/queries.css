@@ -20,11 +20,12 @@ Instead, 1rem = 1em = 16px */
 /* Below 1200px (Landscape Tablet) */
 /* ****************************** */
 
-@media (max-width: 75rem) {
+@media (max-width: 75em) {
   html {
     /* 9px/16px = 0.5625 */
     font-size: 56.25%;
   }
+
   .grid {
     column-gap: 4.8rem;
     row-gap: 6.4rem;
@@ -48,6 +49,7 @@ Instead, 1rem = 1em = 16px */
     padding: 3.2rem 3.2rem;
   }
 }
+
 /* ******************************** */
 /* Below 944x (Tablet) */
 /* ****************************** */
@@ -194,6 +196,7 @@ Instead, 1rem = 1em = 16px */
 /* ******************************** */
 /* Below 580px (Smart phone) */
 /* ****************************** */
+
 @media (max-width: 36em) {
   .grid {
     row-gap: 4.8rem;
